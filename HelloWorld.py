@@ -9,7 +9,7 @@ h = input("Please input b-->")
 # print a
 # print h
 area = 1.0 * a * h / 2
-print "Area is " + `area` #利用一组反引号，将数字转化成为字符创
+print "Area is " + `area` #利用一组反引号，将数字转化成为字符创`
 print "面积是" + str(area) #利用str函数将数字转化成为字符串
 
 print "This program will calculate the area of trapezoid."

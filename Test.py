@@ -86,10 +86,14 @@ for x in s:
 #Adam:  95
 #Bart:  59
 print '姓名 ' + ' 年龄 ' + ' 籍贯 '
+#set()集合里面传入列表list
 cl = set([('张三','32','北京'),('李四','45','天津'),('王五','28','河北')])
 for x in cl:
     print x[0] + '   ' + x[1] + '  ' + x[2]
-
+#
+# for x in cl:
+#    for y in x:
+#        print y
 
 
 
